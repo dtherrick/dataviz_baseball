@@ -1,13 +1,9 @@
 # dataviz_baseball
 Source files used in my Thinkful data visualization workshop.
 
-__Three notebooks:__
-1. Creating a Clean Chart
-2. Scraping and Plotting Standings in Matplotlib
-3. Getting started with d3.js Inside iPython Notebook.
-
-
-__Coming soon:__
-1. Nicer, more interactive d3 charts
-2. Pitch f/x data scraping and visualizations.
-
+__TO-DO:__
+1. Do a runthrough of a simple bar graph in `matplotlib` using letter frequency.
+2. Demonstrate how to present via `ipython nbconvert` and make slideshows.
+    * show how to hide your code with a little custom CSS.
+3. Load the day-to-day standings into iPython from CSV.
+    * show how to grab the file, just a simple walkthrough.
