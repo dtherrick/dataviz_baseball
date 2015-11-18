@@ -1,9 +1,14 @@
 # dataviz_baseball
 Source files used in my Thinkful data visualization workshop.
 
-__TO-DO:__
-1. Do a runthrough of a simple bar graph in `matplotlib` using letter frequency.
-2. Demonstrate how to present via `ipython nbconvert` and make slideshows.
-    * show how to hide your code with a little custom CSS.
-3. Load the day-to-day standings into iPython from CSV.
-    * show how to grab the file, just a simple walkthrough.
+__Overview__
+
+This repo serves as the basis for the interactive dat visualization workshop I host via Thinkful.
+
+__Map__
+
+1. `./iPython`:
+    * these are the interactive notebooks that show various visializations, interactive settings of the notebook, and how to use third party APIs.
+2. `modules`:
+    * this folder contains a simple class I use to grab statistics from [baseball-reference.com](http://baseball-reference.com)
+    * I also added a tests example to show how to run a simple test suite.

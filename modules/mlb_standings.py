@@ -1,4 +1,4 @@
-from __future__ import division
+# from __future__ import division
 
 from bs4 import BeautifulSoup
 from datetime import timedelta
