@@ -105,6 +105,8 @@ if __name__ == '__main__':
         dfMaster.month.map(str) + '-' + dfMaster.day.map(str))
     dfMaster.set_index(['division', 'date'], inplace=True)
     dfMaster.drop(['day', 'month', 'year'], axis=1, inplace=True)
+    dfMaster.replace({'--': 0}, inplace=True)
+    dfMaster['GB'] = dfMaster['GB'].astype(float)
 
     dfMaster.to_csv('../data/dayByDayStandings2015.csv')
     print 'success'
